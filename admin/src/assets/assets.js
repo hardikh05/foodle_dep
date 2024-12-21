@@ -10,4 +10,4 @@ export const assets ={
     parcel_icon
 }
 
-export const url = 'https://foodle-dep-backend.onrender.com'
+export const url = 'https://foodle-dep-main.onrender.com'
