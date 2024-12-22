@@ -42,8 +42,8 @@ const placeOrder = async (req, res) => {
         })
         
           const session = await stripe.checkout.sessions.create({
-            success_url: `https://foodle-adqi.onrender.com/myorders`,
-            cancel_url: `https://foodle-adqi.onrender.com/myorders`,
+            success_url: `https://foodle-adqi.onrender.com/`,
+            cancel_url: `https://foodle-adqi.onrender.com/`,
             line_items: line_items,
             mode: 'payment',
           });
